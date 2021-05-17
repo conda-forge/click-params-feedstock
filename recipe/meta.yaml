@@ -1,5 +1,5 @@
 {% set name = "click-params" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7c89893939fea12d83fcc7bfe1f62cca3c1ae9145d3663d4ab9767764f690e93
+  sha256: 249e7dfe958046aa2badffe9a5d3d63ac5f96a31716cb3d04af98c13c92b2eff
 
 build:
   number: 0
