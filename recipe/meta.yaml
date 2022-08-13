@@ -1,5 +1,5 @@
 {% set name = "click-params" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/click-params-{{ version }}.tar.gz
-  sha256: 44be00bccc569c864cccc2d3012de73ca428a58f44f23dbc4ced32f53109f6c1
+  sha256: 74b5c53e225c80037691aef5efa20b1a1fc9d342c85581e52c6cd3512dbcd987
 
 build:
   number: 0
@@ -22,7 +22,7 @@ requirements:
     - poetry >=0.12
   run:
     - python >=3.6
-    - click >=7.0,<9.0    
+    - click >=7.0,<9.0
     - validators >=0.18,<0.19
 
 test:
@@ -38,7 +38,7 @@ about:
   summary: A bunch of useful click parameter types
   license: Apache-2.0
   license_file: LICENSE
-  description: |
+  description: |4
 
     PyPI: [https://pypi.org/project/click-params/](https://pypi.org/project/click-params/)
 
