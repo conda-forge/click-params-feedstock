@@ -13,10 +13,6 @@ Development: https://github.com/click-contrib/click_params
 
 Documentation: https://click-params.readthedocs.io/en/stable
 
-
-PyPI: [https://pypi.org/project/click-params/](https://pypi.org/project/click-params/)
-
-
 Current build status
 ====================
 
