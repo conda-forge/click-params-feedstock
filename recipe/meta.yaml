@@ -1,13 +1,13 @@
 {% set name = "click-params" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/click-params-{{ version }}.tar.gz
-  sha256: 74b5c53e225c80037691aef5efa20b1a1fc9d342c85581e52c6cd3512dbcd987
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/click_params-{{ version }}.tar.gz
+  sha256: 3c8d64b4bcea783385b42924f9ff2932d619b8da4bc946b0367d5896f72fba18
 
 build:
   noarch: python
@@ -22,7 +22,7 @@ requirements:
   run:
     - python >=3.7,<4.0
     - click >=7.0,<9.0
-    - validators >=0.18,<0.19
+    - validators >=0.20,<0.21
 
 test:
   imports:
