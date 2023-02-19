@@ -149,4 +149,5 @@ Feedstock Maintainers
 
 * [@sodre](https://github.com/sodre/)
 * [@sugatoray](https://github.com/sugatoray/)
+* [@xylar](https://github.com/xylar/)
 
